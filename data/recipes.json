@@ -1,0 +1,786 @@
+[
+  {
+    "id": "rec_chicken_tacos",
+    "title": "Quick Chicken Tacos",
+    "cuisine": "Mexican",
+    "tags": ["dinner", "protein"],
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🌮",
+    "description": "Spiced chicken folded into warm tortillas with crisp toppings.",
+    "ingredients": [
+      { "name": "Chicken", "quantity": 1, "unit": "lb" },
+      { "name": "Tortilla", "quantity": 6, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Cilantro", "quantity": 1, "unit": "bunch" },
+      { "name": "Lime", "quantity": 2, "unit": "count" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" },
+      { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Dice chicken into bite-sized pieces. Toss with cumin and salt.",
+      "Heat olive oil in a skillet over medium-high. Cook chicken until browned, ~6 min.",
+      "Warm tortillas in a dry pan, 30 seconds per side.",
+      "Fill tortillas with chicken, diced onion, cilantro, and a squeeze of lime."
+    ]
+  },
+  {
+    "id": "rec_black_bean_bowl",
+    "title": "Black Bean Burrito Bowl",
+    "cuisine": "Mexican",
+    "tags": ["lunch", "vegetarian"],
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥣",
+    "description": "Hearty bean and rice bowl with fresh salsa and avocado.",
+    "ingredients": [
+      { "name": "Black Beans", "quantity": 1, "unit": "can" },
+      { "name": "Rice", "quantity": 1, "unit": "cup" },
+      { "name": "Tomato", "quantity": 2, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Lime", "quantity": 1, "unit": "count" },
+      { "name": "Cilantro", "quantity": 1, "unit": "bunch", "optional": true },
+      { "name": "Avocado", "quantity": 1, "unit": "count", "optional": true },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook rice according to package instructions.",
+      "Drain and rinse black beans; warm in a small pot with a pinch of salt.",
+      "Dice tomato and onion; toss with lime juice and chopped cilantro.",
+      "Build bowls: rice, beans, salsa, sliced avocado on top."
+    ]
+  },
+  {
+    "id": "rec_quesadilla",
+    "title": "Cheese Quesadillas",
+    "cuisine": "Mexican",
+    "tags": ["snack", "vegetarian", "kid-friendly"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🧀",
+    "description": "Crispy tortillas with melted cheese — a 10-minute classic.",
+    "ingredients": [
+      { "name": "Tortilla", "quantity": 4, "unit": "count" },
+      { "name": "Cheddar Cheese", "quantity": 1, "unit": "cup" },
+      { "name": "Butter", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Heat a dry skillet over medium heat.",
+      "Place a tortilla in the pan, sprinkle cheese, top with another tortilla.",
+      "Cook 2 minutes per side until cheese melts and tortillas are golden.",
+      "Cut into wedges and serve."
+    ]
+  },
+  {
+    "id": "rec_guacamole",
+    "title": "Fresh Guacamole",
+    "cuisine": "Mexican",
+    "tags": ["snack", "vegan", "vegetarian"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 4,
+    "emoji": "🥑",
+    "description": "Bright, chunky guac with lime and cilantro.",
+    "ingredients": [
+      { "name": "Avocado", "quantity": 3, "unit": "count" },
+      { "name": "Lime", "quantity": 1, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Cilantro", "quantity": 1, "unit": "bunch" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" },
+      { "name": "Tomato", "quantity": 1, "unit": "count", "optional": true }
+    ],
+    "steps": [
+      "Halve avocados, remove pits, and scoop into a bowl.",
+      "Mash to your preferred texture.",
+      "Stir in finely diced onion, chopped cilantro, lime juice, and salt.",
+      "Fold in diced tomato if using."
+    ]
+  },
+  {
+    "id": "rec_aglio_olio",
+    "title": "Spaghetti Aglio e Olio",
+    "cuisine": "Italian",
+    "tags": ["dinner", "vegetarian", "quick"],
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍝",
+    "description": "Garlicky olive oil pasta — five ingredients, big flavor.",
+    "ingredients": [
+      { "name": "Pasta", "quantity": 8, "unit": "oz" },
+      { "name": "Garlic", "quantity": 4, "unit": "clove" },
+      { "name": "Olive Oil", "quantity": 4, "unit": "tbsp" },
+      { "name": "Red Pepper Flakes", "quantity": 1, "unit": "tsp", "optional": true },
+      { "name": "Parsley", "quantity": 1, "unit": "bunch", "optional": true },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil. Cook pasta until al dente.",
+      "Meanwhile, slice garlic thinly. Warm olive oil in a wide pan over low heat.",
+      "Add garlic and red pepper flakes; cook gently until fragrant, 2 minutes.",
+      "Drain pasta, reserving 1/2 cup pasta water.",
+      "Toss pasta with garlic oil and a splash of pasta water. Top with parsley."
+    ]
+  },
+  {
+    "id": "rec_caprese",
+    "title": "Caprese Salad",
+    "cuisine": "Italian",
+    "tags": ["salad", "vegetarian", "summer"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍅",
+    "description": "Tomato, mozzarella, and basil with a drizzle of olive oil.",
+    "ingredients": [
+      { "name": "Tomato", "quantity": 3, "unit": "count" },
+      { "name": "Mozzarella", "quantity": 8, "unit": "oz" },
+      { "name": "Basil", "quantity": 1, "unit": "bunch" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" },
+      { "name": "Black Pepper", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice tomatoes and mozzarella into 1/4-inch rounds.",
+      "Arrange alternating slices on a plate with whole basil leaves.",
+      "Drizzle with olive oil, sprinkle salt and pepper, serve immediately."
+    ]
+  },
+  {
+    "id": "rec_margherita_pizza",
+    "title": "Margherita Flatbread",
+    "cuisine": "Italian",
+    "tags": ["dinner", "vegetarian"],
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍕",
+    "description": "Quick weeknight pizza on flatbread or pita.",
+    "ingredients": [
+      { "name": "Flatbread", "quantity": 2, "unit": "count" },
+      { "name": "Tomato Sauce", "quantity": 0.5, "unit": "cup" },
+      { "name": "Mozzarella", "quantity": 4, "unit": "oz" },
+      { "name": "Basil", "quantity": 1, "unit": "bunch" },
+      { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Heat oven to 450°F.",
+      "Place flatbreads on a baking sheet. Spread sauce, scatter torn mozzarella.",
+      "Bake 8-10 minutes until cheese bubbles and edges crisp.",
+      "Top with basil leaves, drizzle olive oil, finish with salt."
+    ]
+  },
+  {
+    "id": "rec_pesto_pasta",
+    "title": "Pesto Pasta",
+    "cuisine": "Italian",
+    "tags": ["dinner", "vegetarian"],
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🌿",
+    "description": "Bright basil pesto tossed with hot pasta.",
+    "ingredients": [
+      { "name": "Pasta", "quantity": 8, "unit": "oz" },
+      { "name": "Basil", "quantity": 2, "unit": "cup" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Parmesan", "quantity": 0.5, "unit": "cup" },
+      { "name": "Olive Oil", "quantity": 0.5, "unit": "cup" },
+      { "name": "Pine Nuts", "quantity": 0.25, "unit": "cup", "optional": true },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook pasta in salted boiling water until al dente.",
+      "Blend basil, garlic, parmesan, olive oil, and pine nuts into a smooth pesto.",
+      "Reserve 1/4 cup pasta water. Drain pasta.",
+      "Toss pasta with pesto and a splash of pasta water to loosen."
+    ]
+  },
+  {
+    "id": "rec_bruschetta",
+    "title": "Tomato Bruschetta",
+    "cuisine": "Italian",
+    "tags": ["snack", "vegetarian", "summer"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 4,
+    "emoji": "🍞",
+    "description": "Toasted bread topped with marinated tomato and basil.",
+    "ingredients": [
+      { "name": "Bread", "quantity": 1, "unit": "loaf" },
+      { "name": "Tomato", "quantity": 4, "unit": "count" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Basil", "quantity": 1, "unit": "bunch" },
+      { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Slice bread on the diagonal and toast until golden.",
+      "Rub each slice with a halved garlic clove.",
+      "Dice tomatoes; mix with chopped basil, olive oil, and salt.",
+      "Spoon tomato mixture onto toast and serve."
+    ]
+  },
+  {
+    "id": "rec_chana_masala",
+    "title": "Chana Masala",
+    "cuisine": "Indian",
+    "tags": ["dinner", "vegan", "vegetarian"],
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "servings": 4,
+    "emoji": "🍛",
+    "description": "Spiced chickpea curry over rice.",
+    "ingredients": [
+      { "name": "Chickpea", "quantity": 2, "unit": "can" },
+      { "name": "Tomato", "quantity": 3, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Garlic", "quantity": 3, "unit": "clove" },
+      { "name": "Ginger", "quantity": 1, "unit": "tbsp" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Garam Masala", "quantity": 1, "unit": "tsp" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" },
+      { "name": "Rice", "quantity": 1, "unit": "cup" }
+    ],
+    "steps": [
+      "Cook rice. Meanwhile, finely dice onion, garlic, and ginger.",
+      "Heat oil in a pot. Sauté onion until golden, ~6 min.",
+      "Add garlic, ginger, cumin, garam masala, turmeric. Stir 30 seconds.",
+      "Add diced tomato and cook until broken down, ~5 min.",
+      "Add drained chickpeas and 1/2 cup water. Simmer 10 minutes.",
+      "Season with salt and serve over rice."
+    ]
+  },
+  {
+    "id": "rec_aloo_gobi",
+    "title": "Aloo Gobi",
+    "cuisine": "Indian",
+    "tags": ["dinner", "vegan", "vegetarian"],
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "servings": 4,
+    "emoji": "🥔",
+    "description": "Potato and cauliflower simmered with warm spices.",
+    "ingredients": [
+      { "name": "Potato", "quantity": 3, "unit": "count" },
+      { "name": "Cauliflower", "quantity": 1, "unit": "head" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Tomato", "quantity": 2, "unit": "count" },
+      { "name": "Garlic", "quantity": 3, "unit": "clove" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cube potatoes and break cauliflower into florets.",
+      "Heat oil in a large pan. Sauté diced onion until soft.",
+      "Add garlic, cumin, turmeric. Stir 30 seconds.",
+      "Add potatoes, cauliflower, diced tomato, and 1/2 cup water.",
+      "Cover and simmer 18-22 minutes, stirring occasionally, until tender.",
+      "Season with salt and serve."
+    ]
+  },
+  {
+    "id": "rec_dal_tadka",
+    "title": "Dal Tadka",
+    "cuisine": "Indian",
+    "tags": ["dinner", "vegan", "vegetarian"],
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "servings": 4,
+    "emoji": "🥘",
+    "description": "Yellow lentils tempered with cumin and garlic.",
+    "ingredients": [
+      { "name": "Lentils", "quantity": 1, "unit": "cup" },
+      { "name": "Tomato", "quantity": 1, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Garlic", "quantity": 3, "unit": "clove" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Butter", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Rinse lentils. Simmer with 3 cups water and turmeric until tender, ~25 min.",
+      "Heat butter in a small pan. Add cumin until it sizzles.",
+      "Add diced onion and garlic; cook until golden.",
+      "Add diced tomato and cook 3 minutes. Stir in salt.",
+      "Pour tempering over the cooked lentils and serve."
+    ]
+  },
+  {
+    "id": "rec_veg_curry",
+    "title": "Vegetable Coconut Curry",
+    "cuisine": "Indian",
+    "tags": ["dinner", "vegan", "vegetarian"],
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "servings": 4,
+    "emoji": "🍲",
+    "description": "Mixed vegetables in a creamy coconut curry sauce.",
+    "ingredients": [
+      { "name": "Coconut Milk", "quantity": 1, "unit": "can" },
+      { "name": "Cauliflower", "quantity": 0.5, "unit": "head" },
+      { "name": "Carrot", "quantity": 2, "unit": "count" },
+      { "name": "Potato", "quantity": 2, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Curry Powder", "quantity": 2, "unit": "tbsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Dice all vegetables. Heat oil in a large pot.",
+      "Sauté onion and garlic until soft. Stir in curry powder.",
+      "Add potatoes, carrots, cauliflower, and coconut milk. Simmer 20 minutes.",
+      "Season with salt. Serve over rice or with flatbread."
+    ]
+  },
+  {
+    "id": "rec_chicken_teriyaki",
+    "title": "Chicken Teriyaki Rice",
+    "cuisine": "Japanese",
+    "tags": ["dinner", "protein"],
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍱",
+    "description": "Glossy teriyaki chicken over fluffy rice.",
+    "ingredients": [
+      { "name": "Chicken", "quantity": 1, "unit": "lb" },
+      { "name": "Rice", "quantity": 1, "unit": "cup" },
+      { "name": "Soy Sauce", "quantity": 0.25, "unit": "cup" },
+      { "name": "Sugar", "quantity": 2, "unit": "tbsp" },
+      { "name": "Ginger", "quantity": 1, "unit": "tsp" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" },
+      { "name": "Scallion", "quantity": 2, "unit": "count", "optional": true }
+    ],
+    "steps": [
+      "Cook rice according to package instructions.",
+      "Whisk soy sauce, sugar, grated ginger, and minced garlic.",
+      "Slice chicken into bite-sized pieces. Sear in oil until cooked through, ~6 min.",
+      "Add sauce and reduce until glossy, 2-3 min.",
+      "Serve over rice, topped with sliced scallions."
+    ]
+  },
+  {
+    "id": "rec_miso_soup",
+    "title": "Miso Soup",
+    "cuisine": "Japanese",
+    "tags": ["soup", "vegetarian"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍵",
+    "description": "Comforting miso broth with tofu and scallions.",
+    "ingredients": [
+      { "name": "Miso Paste", "quantity": 2, "unit": "tbsp" },
+      { "name": "Tofu", "quantity": 4, "unit": "oz" },
+      { "name": "Scallion", "quantity": 2, "unit": "count" },
+      { "name": "Seaweed", "quantity": 1, "unit": "tbsp", "optional": true }
+    ],
+    "steps": [
+      "Bring 4 cups water to a gentle simmer.",
+      "Cube tofu and add with seaweed if using.",
+      "Whisk miso paste with a small ladle of broth, then stir back into pot.",
+      "Do not boil after adding miso. Top with sliced scallions and serve."
+    ]
+  },
+  {
+    "id": "rec_tamago_rice",
+    "title": "Tamago Rice Bowl",
+    "cuisine": "Japanese",
+    "tags": ["breakfast", "vegetarian"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "Fluffy egg over hot rice with soy and scallion.",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 2, "unit": "count" },
+      { "name": "Rice", "quantity": 1, "unit": "cup" },
+      { "name": "Soy Sauce", "quantity": 1, "unit": "tbsp" },
+      { "name": "Scallion", "quantity": 1, "unit": "count" },
+      { "name": "Butter", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook rice and keep warm.",
+      "Beat eggs with a pinch of salt.",
+      "Melt butter in a nonstick pan over medium-low. Add eggs and stir into curds.",
+      "Top hot rice with eggs, soy sauce, and sliced scallion."
+    ]
+  },
+  {
+    "id": "rec_grilled_cheese",
+    "title": "Grilled Cheese",
+    "cuisine": "American",
+    "tags": ["snack", "vegetarian", "kid-friendly"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 1,
+    "emoji": "🥪",
+    "description": "Buttery, crispy, melty — the classic.",
+    "ingredients": [
+      { "name": "Bread", "quantity": 2, "unit": "slice" },
+      { "name": "Cheddar Cheese", "quantity": 2, "unit": "slice" },
+      { "name": "Butter", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Butter the outside of each bread slice.",
+      "Place cheese between slices, butter-side out.",
+      "Cook in a skillet over medium-low, ~3 minutes per side, until golden and melted."
+    ]
+  },
+  {
+    "id": "rec_cheeseburger",
+    "title": "Classic Cheeseburger",
+    "cuisine": "American",
+    "tags": ["dinner", "protein"],
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍔",
+    "description": "Juicy beef patties with melted cheese on a soft bun.",
+    "ingredients": [
+      { "name": "Ground Beef", "quantity": 0.5, "unit": "lb" },
+      { "name": "Burger Bun", "quantity": 2, "unit": "count" },
+      { "name": "Cheddar Cheese", "quantity": 2, "unit": "slice" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Tomato", "quantity": 1, "unit": "count" },
+      { "name": "Lettuce", "quantity": 0.25, "unit": "head" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" },
+      { "name": "Black Pepper", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Form ground beef into two patties. Season generously with salt and pepper.",
+      "Heat a skillet over high. Cook patties 3 min per side; top with cheese in last minute.",
+      "Toast buns. Layer lettuce, tomato slice, patty, onion. Serve."
+    ]
+  },
+  {
+    "id": "rec_mac_cheese",
+    "title": "Stovetop Mac and Cheese",
+    "cuisine": "American",
+    "tags": ["dinner", "vegetarian", "kid-friendly"],
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "servings": 4,
+    "emoji": "🧀",
+    "description": "Creamy stovetop mac, no oven needed.",
+    "ingredients": [
+      { "name": "Pasta", "quantity": 8, "unit": "oz" },
+      { "name": "Cheddar Cheese", "quantity": 2, "unit": "cup" },
+      { "name": "Milk", "quantity": 1, "unit": "cup" },
+      { "name": "Butter", "quantity": 2, "unit": "tbsp" },
+      { "name": "Flour", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook pasta until al dente. Drain.",
+      "In the same pot, melt butter. Whisk in flour and cook 1 minute.",
+      "Slowly whisk in milk until smooth. Simmer 2 minutes.",
+      "Off heat, stir in cheese until melted. Add pasta and salt; toss to coat."
+    ]
+  },
+  {
+    "id": "rec_scrambled_eggs",
+    "title": "Soft Scrambled Eggs",
+    "cuisine": "American",
+    "tags": ["breakfast", "vegetarian"],
+    "timeMinutes": 8,
+    "difficulty": "easy",
+    "servings": 1,
+    "emoji": "🍳",
+    "description": "Slow, low-heat scramble for restaurant-soft curds.",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 3, "unit": "count" },
+      { "name": "Butter", "quantity": 1, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 0.25, "unit": "tsp" }
+    ],
+    "steps": [
+      "Beat eggs with salt.",
+      "Melt butter in a nonstick pan over low heat.",
+      "Add eggs. Stir constantly with a rubber spatula until just set, ~3-4 min.",
+      "Remove from heat while still slightly glossy. Serve immediately."
+    ]
+  },
+  {
+    "id": "rec_greek_salad",
+    "title": "Greek Salad",
+    "cuisine": "Mediterranean",
+    "tags": ["salad", "vegetarian", "summer"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥗",
+    "description": "Crunchy, briny, refreshing — no lettuce required.",
+    "ingredients": [
+      { "name": "Cucumber", "quantity": 1, "unit": "count" },
+      { "name": "Tomato", "quantity": 3, "unit": "count" },
+      { "name": "Onion", "quantity": 0.5, "unit": "count" },
+      { "name": "Feta", "quantity": 4, "unit": "oz" },
+      { "name": "Olives", "quantity": 0.5, "unit": "cup" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Oregano", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Chop cucumber and tomato into chunks. Slice onion thinly.",
+      "Combine in a bowl with crumbled feta and olives.",
+      "Drizzle olive oil, sprinkle oregano and salt, toss gently."
+    ]
+  },
+  {
+    "id": "rec_hummus_pita",
+    "title": "Hummus & Pita",
+    "cuisine": "Mediterranean",
+    "tags": ["snack", "vegan", "vegetarian"],
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "servings": 4,
+    "emoji": "🫓",
+    "description": "Creamy chickpea dip with warm pita.",
+    "ingredients": [
+      { "name": "Chickpea", "quantity": 1, "unit": "can" },
+      { "name": "Tahini", "quantity": 0.25, "unit": "cup" },
+      { "name": "Lemon", "quantity": 1, "unit": "count" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" },
+      { "name": "Pita", "quantity": 4, "unit": "count" },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Drain chickpeas, reserving 2 tbsp liquid.",
+      "Blend chickpeas, tahini, lemon juice, garlic, olive oil, salt, and reserved liquid.",
+      "Adjust seasoning. Warm pita briefly.",
+      "Spoon hummus into a bowl, drizzle olive oil, serve with pita."
+    ]
+  },
+  {
+    "id": "rec_couscous_bowl",
+    "title": "Mediterranean Couscous Bowl",
+    "cuisine": "Mediterranean",
+    "tags": ["lunch", "vegetarian"],
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥙",
+    "description": "Fluffy couscous with chickpeas, cucumber, and lemony dressing.",
+    "ingredients": [
+      { "name": "Couscous", "quantity": 1, "unit": "cup" },
+      { "name": "Chickpea", "quantity": 1, "unit": "can" },
+      { "name": "Cucumber", "quantity": 1, "unit": "count" },
+      { "name": "Tomato", "quantity": 2, "unit": "count" },
+      { "name": "Lemon", "quantity": 1, "unit": "count" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Parsley", "quantity": 1, "unit": "bunch", "optional": true },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Cook couscous according to package. Fluff with a fork.",
+      "Drain chickpeas. Dice cucumber and tomato.",
+      "Toss everything with olive oil, lemon juice, salt, and chopped parsley."
+    ]
+  },
+  {
+    "id": "rec_shakshuka",
+    "title": "Shakshuka",
+    "cuisine": "Mediterranean",
+    "tags": ["breakfast", "vegetarian"],
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥚",
+    "description": "Eggs poached in a spiced tomato pepper sauce.",
+    "ingredients": [
+      { "name": "Tomato", "quantity": 4, "unit": "count" },
+      { "name": "Bell Pepper", "quantity": 1, "unit": "count" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Garlic", "quantity": 3, "unit": "clove" },
+      { "name": "Eggs", "quantity": 4, "unit": "count" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Paprika", "quantity": 1, "unit": "tsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Heat oil in a wide skillet. Sauté diced onion and pepper until soft.",
+      "Add garlic, cumin, paprika; stir 30 seconds.",
+      "Add diced tomatoes and salt. Simmer 10 minutes until thick.",
+      "Make 4 wells in the sauce. Crack an egg into each.",
+      "Cover and cook 5-7 minutes until whites are set. Serve from the pan."
+    ]
+  },
+  {
+    "id": "rec_thai_basil",
+    "title": "Thai Basil Chicken",
+    "cuisine": "Thai",
+    "tags": ["dinner", "protein", "spicy"],
+    "timeMinutes": 20,
+    "difficulty": "medium",
+    "servings": 2,
+    "emoji": "🌶️",
+    "description": "Fast, fragrant stir-fry over jasmine rice.",
+    "ingredients": [
+      { "name": "Chicken", "quantity": 1, "unit": "lb" },
+      { "name": "Rice", "quantity": 1, "unit": "cup" },
+      { "name": "Basil", "quantity": 1, "unit": "cup" },
+      { "name": "Garlic", "quantity": 4, "unit": "clove" },
+      { "name": "Soy Sauce", "quantity": 2, "unit": "tbsp" },
+      { "name": "Fish Sauce", "quantity": 1, "unit": "tbsp" },
+      { "name": "Sugar", "quantity": 1, "unit": "tsp" },
+      { "name": "Chili", "quantity": 1, "unit": "count", "optional": true },
+      { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook rice. Mince chicken, garlic, and chili.",
+      "Heat oil in a wok over high. Add garlic and chili briefly.",
+      "Add chicken; stir-fry until cooked, ~4 min.",
+      "Add soy, fish sauce, sugar; toss to coat.",
+      "Off heat, fold in basil leaves. Serve over rice."
+    ]
+  },
+  {
+    "id": "rec_pad_see_ew",
+    "title": "Easy Pad See Ew",
+    "cuisine": "Thai",
+    "tags": ["dinner"],
+    "timeMinutes": 25,
+    "difficulty": "medium",
+    "servings": 2,
+    "emoji": "🍜",
+    "description": "Wide noodles with broccoli and sweet soy.",
+    "ingredients": [
+      { "name": "Rice Noodles", "quantity": 8, "unit": "oz" },
+      { "name": "Broccoli", "quantity": 1, "unit": "head" },
+      { "name": "Eggs", "quantity": 2, "unit": "count" },
+      { "name": "Garlic", "quantity": 3, "unit": "clove" },
+      { "name": "Soy Sauce", "quantity": 3, "unit": "tbsp" },
+      { "name": "Sugar", "quantity": 1, "unit": "tbsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Soak rice noodles per package directions.",
+      "Heat oil in a wok over high. Add minced garlic, then broccoli florets.",
+      "Push veg aside, scramble eggs in the empty space.",
+      "Add drained noodles, soy, sugar; toss until noodles char slightly."
+    ]
+  },
+  {
+    "id": "rec_coconut_curry_soup",
+    "title": "Coconut Curry Soup",
+    "cuisine": "Thai",
+    "tags": ["soup", "vegetarian", "vegan"],
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥥",
+    "description": "Creamy, gingery coconut broth with vegetables.",
+    "ingredients": [
+      { "name": "Coconut Milk", "quantity": 1, "unit": "can" },
+      { "name": "Curry Paste", "quantity": 2, "unit": "tbsp" },
+      { "name": "Ginger", "quantity": 1, "unit": "tbsp" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Tofu", "quantity": 6, "unit": "oz" },
+      { "name": "Bell Pepper", "quantity": 1, "unit": "count" },
+      { "name": "Lime", "quantity": 1, "unit": "count" },
+      { "name": "Soy Sauce", "quantity": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Heat curry paste in a pot 30 seconds; add minced garlic and ginger.",
+      "Pour in coconut milk and 1 cup water; simmer 5 minutes.",
+      "Add cubed tofu and sliced pepper; simmer 8 minutes.",
+      "Stir in soy and lime juice. Taste and adjust."
+    ]
+  },
+  {
+    "id": "rec_egg_fried_rice",
+    "title": "Egg Fried Rice",
+    "cuisine": "Chinese",
+    "tags": ["dinner", "vegetarian", "quick"],
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🍛",
+    "description": "Quick fried rice that uses up leftovers beautifully.",
+    "ingredients": [
+      { "name": "Rice", "quantity": 2, "unit": "cup" },
+      { "name": "Eggs", "quantity": 3, "unit": "count" },
+      { "name": "Scallion", "quantity": 3, "unit": "count" },
+      { "name": "Garlic", "quantity": 2, "unit": "clove" },
+      { "name": "Soy Sauce", "quantity": 2, "unit": "tbsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Carrot", "quantity": 1, "unit": "count", "optional": true },
+      { "name": "Peas", "quantity": 0.5, "unit": "cup", "optional": true }
+    ],
+    "steps": [
+      "Heat oil in a wok over high. Add minced garlic.",
+      "Push aside; scramble eggs into curds.",
+      "Add cold cooked rice, breaking up clumps. Stir-fry 3 minutes.",
+      "Add diced carrot, peas, and scallion. Pour in soy. Toss and serve."
+    ]
+  },
+  {
+    "id": "rec_garlic_greens",
+    "title": "Garlic Stir-Fried Greens",
+    "cuisine": "Chinese",
+    "tags": ["side", "vegan", "vegetarian"],
+    "timeMinutes": 8,
+    "difficulty": "easy",
+    "servings": 2,
+    "emoji": "🥬",
+    "description": "Bok choy or any leafy greens, hot and fast.",
+    "ingredients": [
+      { "name": "Bok Choy", "quantity": 1, "unit": "lb" },
+      { "name": "Garlic", "quantity": 4, "unit": "clove" },
+      { "name": "Soy Sauce", "quantity": 1, "unit": "tbsp" },
+      { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" },
+      { "name": "Salt", "quantity": 0.5, "unit": "tsp" }
+    ],
+    "steps": [
+      "Wash greens and cut into bite-sized pieces.",
+      "Heat oil in a wok until shimmering. Add sliced garlic for 20 seconds.",
+      "Add greens; stir-fry until just wilted, ~2 minutes.",
+      "Splash with soy and salt. Serve immediately."
+    ]
+  },
+  {
+    "id": "rec_sweet_sour_chicken",
+    "title": "Sweet and Sour Chicken",
+    "cuisine": "Chinese",
+    "tags": ["dinner", "protein"],
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "servings": 3,
+    "emoji": "🍗",
+    "description": "Crispy chicken in a tangy red sauce.",
+    "ingredients": [
+      { "name": "Chicken", "quantity": 1, "unit": "lb" },
+      { "name": "Bell Pepper", "quantity": 1, "unit": "count" },
+      { "name": "Pineapple", "quantity": 1, "unit": "cup" },
+      { "name": "Onion", "quantity": 1, "unit": "count" },
+      { "name": "Ketchup", "quantity": 0.25, "unit": "cup" },
+      { "name": "Vinegar", "quantity": 2, "unit": "tbsp" },
+      { "name": "Sugar", "quantity": 2, "unit": "tbsp" },
+      { "name": "Soy Sauce", "quantity": 1, "unit": "tbsp" },
+      { "name": "Cornstarch", "quantity": 2, "unit": "tbsp" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cube chicken, toss with cornstarch and a pinch of salt.",
+      "Sear in oil over high heat until golden, ~5 min. Remove.",
+      "Stir-fry diced pepper and onion 2 min. Add pineapple chunks.",
+      "Whisk ketchup, vinegar, sugar, soy with 1/4 cup water; pour in.",
+      "Return chicken; toss until glossy. Serve over rice."
+    ]
+  }
+]
