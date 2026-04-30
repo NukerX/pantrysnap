@@ -6,7 +6,7 @@
  *
  * To add a real backend later, replace the read/write internals here.
  */
-import { z } from "zod";
+import type { ZodTypeAny } from "zod";
 
 const NAMESPACE = "pantrysnap:v1";
 
@@ -18,7 +18,11 @@ function isBrowser(): boolean {
   return typeof window !== "undefined" && typeof window.localStorage !== "undefined";
 }
 
-export function loadValue<T>(name: string, schema: z.ZodType<T>, fallback: T): T {
+/**
+ * Schemas with `.default()` produce asymmetric input/output types in Zod, so we
+ * accept any ZodTypeAny here and trust the caller's `T` matches the schema's output.
+ */
+export function loadValue<T>(name: string, schema: ZodTypeAny, fallback: T): T {
   if (!isBrowser()) return fallback;
   try {
     const raw = window.localStorage.getItem(key(name));
@@ -29,7 +33,7 @@ export function loadValue<T>(name: string, schema: z.ZodType<T>, fallback: T): T
       console.warn(`[storage] schema mismatch on "${name}"; resetting`, result.error);
       return fallback;
     }
-    return result.data;
+    return result.data as T;
   } catch (err) {
     console.warn(`[storage] failed to read "${name}"`, err);
     return fallback;
