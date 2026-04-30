@@ -113,6 +113,7 @@ export default function ScanPage() {
           <div className="flex flex-col items-center text-center py-12 animate-slideUp">
             {preview ? (
               <div className="w-40 h-40 rounded-3xl overflow-hidden shadow-card relative">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={preview} alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30" />
               </div>
@@ -137,6 +138,7 @@ export default function ScanPage() {
           <div className="animate-slideUp">
             <div className="flex items-start gap-3 mb-4">
               {preview && (
+                /* eslint-disable-next-line @next/next/no-img-element */
                 <img
                   src={preview}
                   alt="Captured"

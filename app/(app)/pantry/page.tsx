@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { AppHeader } from "@/components/AppHeader";
 import { EmptyState } from "@/components/EmptyState";
@@ -182,7 +182,7 @@ function ItemFormModal({
   const [category, setCategory] = useState(item?.category ?? "Other");
 
   // Reset when item changes / modal opens
-  useMemo(() => {
+  useEffect(() => {
     setName(item?.name ?? "");
     setQuantity(item?.quantity ?? 1);
     setUnit(item?.unit ?? "count");

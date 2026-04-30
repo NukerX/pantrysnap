@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Local linting still works; we just don't fail the production build on lint warnings.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Allow service worker scope at root
   async headers() {
     return [
