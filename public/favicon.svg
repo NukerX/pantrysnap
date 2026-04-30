@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <rect x="34" y="14" width="76" height="18" rx="6" fill="#16a34a"/>
+  <rect x="28" y="32" width="88" height="98" rx="14" fill="#86efac"/>
+  <rect x="28" y="32" width="88" height="14" fill="#4ade80"/>
+  <rect x="38" y="50" width="8" height="60" rx="4" fill="#bbf7d0"/>
+  <circle cx="58" cy="56" r="4" fill="#0f172a"/>
+  <circle cx="86" cy="56" r="4" fill="#0f172a"/>
+  <path d="M 56 72 Q 72 86 88 72" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect x="40" y="92" width="64" height="22" rx="4" fill="#fefce8"/>
+  <text x="72" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="11" font-weight="700" fill="#16a34a">PANTRY</text>
+</svg>
